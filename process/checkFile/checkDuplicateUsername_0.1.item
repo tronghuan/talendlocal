@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+  <context confirmationNeeded="false" name="Default"/>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:eXfCmYKBXr6e190tZP0jLLZ2jRWJOQ7o85bc8HH8" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/dthbk/Desktop/EIKEN/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5qgRUyWe+EeWUoj8Ig1BfU+gRv3dA/1B+TtTy9xQ" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <routinesParameter id="_sNmmkIdUEe2HbL9ph5oCAA" name="DataOperation"/>
+    <routinesParameter id="_sOSjEIdUEe2HbL9ph5oCAA" name="Mathematical"/>
+    <routinesParameter id="_sOXblodUEe2HbL9ph5oCAA" name="Numeric"/>
+    <routinesParameter id="_sOcUEIdUEe2HbL9ph5oCAA" name="Relational"/>
+    <routinesParameter id="_sOhMkIdUEe2HbL9ph5oCAA" name="StringHandling"/>
+    <routinesParameter id="_sOjBxodUEe2HbL9ph5oCAA" name="TalendDataGenerator"/>
+    <routinesParameter id="_sOn6RodUEe2HbL9ph5oCAA" name="TalendDate"/>
+    <routinesParameter id="_sOwdJodUEe2HbL9ph5oCAA" name="TalendStringUtil"/>
+    <routinesParameter id="_sOrkpodUEe2HbL9ph5oCAA" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/dthbk/Desktop/Talend_Workspace/UserList.csv&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/Users/dthbk/Desktop/Talend_Workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Username"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FirstName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Alias"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsActive"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TimeZoneSidKey"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LocaleSidKey"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EmailEncodingKey"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProfileId"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LanguageLocaleKey"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Phone"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Birthday"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Gender"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Username"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LastName"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FirstName"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Alias"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IsActive"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TimeZoneSidKey"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LocaleSidKey"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EmailEncodingKey"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ProfileId"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LanguageLocaleKey"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Phone"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Birthday"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Gender"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="ReadUserList"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="User" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="80" name="Username" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Username"/>
+      </column>
+      <column comment="" key="false" length="80" name="LastName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastName"/>
+      </column>
+      <column comment="" key="false" length="40" name="FirstName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FirstName"/>
+      </column>
+      <column comment="" key="false" length="128" name="Email" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Email"/>
+      </column>
+      <column comment="" key="false" length="8" name="Alias" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Alias"/>
+      </column>
+      <column comment="" key="false" length="-1" name="IsActive" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IsActive"/>
+      </column>
+      <column comment="" key="false" length="40" name="TimeZoneSidKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="TimeZoneSidKey"/>
+      </column>
+      <column comment="" key="false" length="40" name="LocaleSidKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LocaleSidKey"/>
+      </column>
+      <column comment="" key="false" length="40" name="EmailEncodingKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailEncodingKey"/>
+      </column>
+      <column comment="" key="false" length="18" name="ProfileId" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ProfileId"/>
+      </column>
+      <column comment="" key="false" length="40" name="LanguageLocaleKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LanguageLocaleKey"/>
+      </column>
+      <column comment="" key="false" length="-1" name="Phone" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Birthday" nullable="false" originalDbColumnName="Birthday__c" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Gender" nullable="false" originalDbColumnName="Gender__c" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="Id" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Id"/>
+      </column>
+      <column comment="" key="false" length="80" name="CompanyName" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CompanyName"/>
+      </column>
+      <column comment="" key="false" length="80" name="Division" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Division"/>
+      </column>
+      <column comment="" key="false" length="80" name="Department" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Department"/>
+      </column>
+      <column comment="" key="false" length="80" name="Title" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Title"/>
+      </column>
+      <column comment="" key="false" length="255" name="Street" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Street"/>
+      </column>
+      <column comment="" key="false" length="40" name="City" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="City"/>
+      </column>
+      <column comment="" key="false" length="80" name="State" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="State"/>
+      </column>
+      <column comment="" key="false" length="20" name="PostalCode" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="PostalCode"/>
+      </column>
+      <column comment="" key="false" length="80" name="Country" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Country"/>
+      </column>
+      <column comment="" key="false" length="18" name="Latitude" nullable="true" pattern="" precision="15" type="id_Double" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Latitude"/>
+      </column>
+      <column comment="" key="false" length="18" name="Longitude" nullable="true" pattern="" precision="15" type="id_Double" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Longitude"/>
+      </column>
+      <column comment="" key="false" length="40" name="GeocodeAccuracy" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="GeocodeAccuracy"/>
+      </column>
+      <column comment="" key="false" length="-1" name="Address" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Address"/>
+      </column>
+      <column comment="" key="false" length="-1" name="EmailPreferencesAutoBcc" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailPreferencesAutoBcc"/>
+      </column>
+      <column comment="" key="false" length="-1" name="EmailPreferencesAutoBccStayInTouch" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailPreferencesAutoBccStayInTouch"/>
+      </column>
+      <column comment="" key="false" length="-1" name="EmailPreferencesStayInTouchReminder" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailPreferencesStayInTouchReminder"/>
+      </column>
+      <column comment="" key="false" length="80" name="SenderEmail" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SenderEmail"/>
+      </column>
+      <column comment="" key="false" length="80" name="SenderName" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SenderName"/>
+      </column>
+      <column comment="" key="false" length="1333" name="Signature" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Signature"/>
+      </column>
+      <column comment="" key="false" length="80" name="StayInTouchSubject" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="StayInTouchSubject"/>
+      </column>
+      <column comment="" key="false" length="512" name="StayInTouchSignature" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="StayInTouchSignature"/>
+      </column>
+      <column comment="" key="false" length="512" name="StayInTouchNote" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="StayInTouchNote"/>
+      </column>
+      <column comment="" key="false" length="40" name="Phone" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Phone"/>
+      </column>
+      <column comment="" key="false" length="40" name="Fax" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Fax"/>
+      </column>
+      <column comment="" key="false" length="40" name="MobilePhone" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="MobilePhone"/>
+      </column>
+      <column comment="" key="false" length="40" name="CommunityNickname" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CommunityNickname"/>
+      </column>
+      <column comment="" key="false" length="80" name="BadgeText" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="BadgeText"/>
+      </column>
+      <column comment="" key="false" length="18" name="UserRoleId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserRoleId"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ReceivesInfoEmails" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ReceivesInfoEmails"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ReceivesAdminInfoEmails" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ReceivesAdminInfoEmails"/>
+      </column>
+      <column comment="" key="false" length="3" name="DefaultCurrencyIsoCode" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DefaultCurrencyIsoCode"/>
+      </column>
+      <column comment="" key="false" length="3" name="CurrencyIsoCode" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CurrencyIsoCode"/>
+      </column>
+      <column comment="" key="false" length="40" name="UserType" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserType"/>
+      </column>
+      <column comment="" key="false" length="20" name="EmployeeNumber" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmployeeNumber"/>
+      </column>
+      <column comment="" key="false" length="18" name="DelegatedApproverId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DelegatedApproverId"/>
+      </column>
+      <column comment="" key="false" length="18" name="ManagerId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ManagerId"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastLoginDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastLoginDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastPasswordChangeDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastPasswordChangeDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="CreatedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CreatedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="18" name="CreatedById" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CreatedById"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastModifiedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastModifiedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="18" name="LastModifiedById" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastModifiedById"/>
+      </column>
+      <column comment="" key="false" length="-1" name="SystemModstamp" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SystemModstamp"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NumberOfFailedLogins" nullable="true" pattern="" precision="-1" type="id_Integer" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NumberOfFailedLogins"/>
+      </column>
+      <column comment="" key="false" length="-1" name="OfflineTrialExpirationDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="OfflineTrialExpirationDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="OfflinePdaTrialExpirationDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="OfflinePdaTrialExpirationDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsMarketingUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsMarketingUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsOfflineUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsOfflineUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsCallCenterAutoLogin" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsCallCenterAutoLogin"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSFContentUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSFContentUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsKnowledgeUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsKnowledgeUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsInteractionUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsInteractionUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSupportUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSupportUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsJigsawProspectingUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsJigsawProspectingUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSiteforceContributorUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSiteforceContributorUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSiteforcePublisherUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSiteforcePublisherUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsWorkDotComUserFeature" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsWorkDotComUserFeature"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ForecastEnabled" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ForecastEnabled"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesActivityRemindersPopup" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesActivityRemindersPopup"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesEventRemindersCheckboxDefault" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesEventRemindersCheckboxDefault"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesTaskRemindersCheckboxDefault" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesTaskRemindersCheckboxDefault"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesReminderSoundOff" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesReminderSoundOff"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableAllFeedsEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableAllFeedsEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableFollowersEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableFollowersEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableProfilePostEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableProfilePostEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableChangeCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableChangeCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableLaterCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableLaterCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisProfPostCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisProfPostCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesContentNoEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesContentNoEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesContentEmailAsAndWhen" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesContentEmailAsAndWhen"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesApexPagesDeveloperMode" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesApexPagesDeveloperMode"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesReceiveNoNotificationsAsApprover" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesReceiveNoNotificationsAsApprover"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesReceiveNotificationsAsDelegatedApprover" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesReceiveNotificationsAsDelegatedApprover"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideCSNGetChatterMobileTask" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideCSNGetChatterMobileTask"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableMentionsPostEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableMentionsPostEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisMentionsCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisMentionsCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideCSNDesktopTask" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideCSNDesktopTask"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideChatterOnboardingSplash" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideChatterOnboardingSplash"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideSecondChatterOnboardingSplash" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideSecondChatterOnboardingSplash"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisCommentAfterLikeEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisCommentAfterLikeEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableLikeEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableLikeEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSortFeedByComment" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSortFeedByComment"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableMessageEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableMessageEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideLegacyRetirementModal" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideLegacyRetirementModal"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesJigsawListUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesJigsawListUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableBookmarkEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableBookmarkEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableSharePostEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableSharePostEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesEnableAutoSubForFeeds" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesEnableAutoSubForFeeds"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableFileShareNotificationsForApi" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableFileShareNotificationsForApi"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowTitleToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowTitleToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowManagerToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowManagerToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowEmailToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowEmailToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowWorkPhoneToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowWorkPhoneToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowMobilePhoneToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowMobilePhoneToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowFaxToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowFaxToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStreetAddressToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStreetAddressToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCityToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCityToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStateToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStateToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowPostalCodeToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowPostalCodeToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCountryToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCountryToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowProfilePicToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowProfilePicToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowTitleToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowTitleToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCityToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCityToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStateToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStateToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowPostalCodeToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowPostalCodeToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCountryToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCountryToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideS1BrowserUI" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideS1BrowserUI"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableEndorsementEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableEndorsementEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesPathAssistantCollapsed" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesPathAssistantCollapsed"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesCacheDiagnostics" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesCacheDiagnostics"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowEmailToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowEmailToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowManagerToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowManagerToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowWorkPhoneToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowWorkPhoneToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowMobilePhoneToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowMobilePhoneToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowFaxToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowFaxToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStreetAddressToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStreetAddressToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesLightningExperiencePreferred" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesLightningExperiencePreferred"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesPreviewLightning" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesPreviewLightning"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideEndUserOnboardingAssistantModal" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideEndUserOnboardingAssistantModal"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideLightningMigrationModal" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideLightningMigrationModal"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideSfxWelcomeMat" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideSfxWelcomeMat"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideBiggerPhotoCallout" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideBiggerPhotoCallout"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesGlobalNavBarWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesGlobalNavBarWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesGlobalNavGridMenuWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesGlobalNavGridMenuWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesCreateLEXAppsWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesCreateLEXAppsWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesFavoritesWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesFavoritesWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesRecordHomeSectionCollapseWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesRecordHomeSectionCollapseWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesRecordHomeReservedWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesRecordHomeReservedWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesFavoritesShowTopFavorites" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesFavoritesShowTopFavorites"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesExcludeMailAppAttachments" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesExcludeMailAppAttachments"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSuppressTaskSFXReminders" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSuppressTaskSFXReminders"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSuppressEventSFXReminders" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSuppressEventSFXReminders"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesPreviewCustomTheme" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesPreviewCustomTheme"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHasCelebrationBadge" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHasCelebrationBadge"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesUserDebugModePref" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesUserDebugModePref"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSRHOverrideActivities" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSRHOverrideActivities"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesNewLightningReportRunPageEnabled" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesNewLightningReportRunPageEnabled"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesNativeEmailClient" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesNativeEmailClient"/>
+      </column>
+      <column comment="" key="false" length="18" name="ContactId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ContactId"/>
+      </column>
+      <column comment="" key="false" length="18" name="AccountId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="AccountId"/>
+      </column>
+      <column comment="" key="false" length="18" name="CallCenterId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CallCenterId"/>
+      </column>
+      <column comment="" key="false" length="40" name="Extension" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Extension"/>
+      </column>
+      <column comment="" key="false" length="512" name="FederationIdentifier" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FederationIdentifier"/>
+      </column>
+      <column comment="" key="false" length="1000" name="AboutMe" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="AboutMe"/>
+      </column>
+      <column comment="" key="false" length="1024" name="FullPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FullPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="1024" name="SmallPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SmallPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="-1" name="IsExtIndicatorVisible" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IsExtIndicatorVisible"/>
+      </column>
+      <column comment="" key="false" length="40" name="OutOfOfficeMessage" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="OutOfOfficeMessage"/>
+      </column>
+      <column comment="" key="false" length="1024" name="MediumPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="MediumPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="40" name="DigestFrequency" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DigestFrequency"/>
+      </column>
+      <column comment="" key="false" length="40" name="DefaultGroupNotificationFrequency" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DefaultGroupNotificationFrequency"/>
+      </column>
+      <column comment="" key="false" length="-1" name="JigsawImportLimitOverride" nullable="true" pattern="" precision="-1" type="id_Integer" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="JigsawImportLimitOverride"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastViewedDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastViewedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastReferencedDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastReferencedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="1024" name="BannerPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="BannerPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="1024" name="SmallBannerPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SmallBannerPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="1024" name="MediumBannerPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="MediumBannerPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="-1" name="IsProfilePhotoActive" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IsProfilePhotoActive"/>
+      </column>
+      <column comment="" key="false" length="18" name="IndividualId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IndividualId"/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="User" name="REJECT">
+      <column comment="" key="false" length="80" name="Username" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Username"/>
+      </column>
+      <column comment="" key="false" length="80" name="LastName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastName"/>
+      </column>
+      <column comment="" key="false" length="40" name="FirstName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FirstName"/>
+      </column>
+      <column comment="" key="false" length="128" name="Email" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Email"/>
+      </column>
+      <column comment="" key="false" length="8" name="Alias" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Alias"/>
+      </column>
+      <column comment="" key="false" length="-1" name="IsActive" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IsActive"/>
+      </column>
+      <column comment="" key="false" length="40" name="TimeZoneSidKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="TimeZoneSidKey"/>
+      </column>
+      <column comment="" key="false" length="40" name="LocaleSidKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LocaleSidKey"/>
+      </column>
+      <column comment="" key="false" length="40" name="EmailEncodingKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailEncodingKey"/>
+      </column>
+      <column comment="" key="false" length="18" name="ProfileId" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ProfileId"/>
+      </column>
+      <column comment="" key="false" length="40" name="LanguageLocaleKey" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LanguageLocaleKey"/>
+      </column>
+      <column comment="" key="false" length="-1" name="Phone" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Birthday" nullable="false" originalDbColumnName="Birthday__c" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Gender" nullable="false" originalDbColumnName="Gender__c" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="18" name="Id" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Id"/>
+      </column>
+      <column comment="" key="false" length="80" name="CompanyName" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CompanyName"/>
+      </column>
+      <column comment="" key="false" length="80" name="Division" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Division"/>
+      </column>
+      <column comment="" key="false" length="80" name="Department" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Department"/>
+      </column>
+      <column comment="" key="false" length="80" name="Title" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Title"/>
+      </column>
+      <column comment="" key="false" length="255" name="Street" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Street"/>
+      </column>
+      <column comment="" key="false" length="40" name="City" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="City"/>
+      </column>
+      <column comment="" key="false" length="80" name="State" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="State"/>
+      </column>
+      <column comment="" key="false" length="20" name="PostalCode" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="PostalCode"/>
+      </column>
+      <column comment="" key="false" length="80" name="Country" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Country"/>
+      </column>
+      <column comment="" key="false" length="18" name="Latitude" nullable="true" pattern="" precision="15" type="id_Double" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Latitude"/>
+      </column>
+      <column comment="" key="false" length="18" name="Longitude" nullable="true" pattern="" precision="15" type="id_Double" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Longitude"/>
+      </column>
+      <column comment="" key="false" length="40" name="GeocodeAccuracy" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="GeocodeAccuracy"/>
+      </column>
+      <column comment="" key="false" length="-1" name="Address" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Address"/>
+      </column>
+      <column comment="" key="false" length="-1" name="EmailPreferencesAutoBcc" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailPreferencesAutoBcc"/>
+      </column>
+      <column comment="" key="false" length="-1" name="EmailPreferencesAutoBccStayInTouch" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailPreferencesAutoBccStayInTouch"/>
+      </column>
+      <column comment="" key="false" length="-1" name="EmailPreferencesStayInTouchReminder" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmailPreferencesStayInTouchReminder"/>
+      </column>
+      <column comment="" key="false" length="80" name="SenderEmail" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SenderEmail"/>
+      </column>
+      <column comment="" key="false" length="80" name="SenderName" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SenderName"/>
+      </column>
+      <column comment="" key="false" length="1333" name="Signature" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Signature"/>
+      </column>
+      <column comment="" key="false" length="80" name="StayInTouchSubject" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="StayInTouchSubject"/>
+      </column>
+      <column comment="" key="false" length="512" name="StayInTouchSignature" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="StayInTouchSignature"/>
+      </column>
+      <column comment="" key="false" length="512" name="StayInTouchNote" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="StayInTouchNote"/>
+      </column>
+      <column comment="" key="false" length="40" name="Phone" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Phone"/>
+      </column>
+      <column comment="" key="false" length="40" name="Fax" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Fax"/>
+      </column>
+      <column comment="" key="false" length="40" name="MobilePhone" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="MobilePhone"/>
+      </column>
+      <column comment="" key="false" length="40" name="CommunityNickname" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CommunityNickname"/>
+      </column>
+      <column comment="" key="false" length="80" name="BadgeText" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="BadgeText"/>
+      </column>
+      <column comment="" key="false" length="18" name="UserRoleId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserRoleId"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ReceivesInfoEmails" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ReceivesInfoEmails"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ReceivesAdminInfoEmails" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ReceivesAdminInfoEmails"/>
+      </column>
+      <column comment="" key="false" length="3" name="DefaultCurrencyIsoCode" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DefaultCurrencyIsoCode"/>
+      </column>
+      <column comment="" key="false" length="3" name="CurrencyIsoCode" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CurrencyIsoCode"/>
+      </column>
+      <column comment="" key="false" length="40" name="UserType" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserType"/>
+      </column>
+      <column comment="" key="false" length="20" name="EmployeeNumber" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="EmployeeNumber"/>
+      </column>
+      <column comment="" key="false" length="18" name="DelegatedApproverId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DelegatedApproverId"/>
+      </column>
+      <column comment="" key="false" length="18" name="ManagerId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ManagerId"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastLoginDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastLoginDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastPasswordChangeDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastPasswordChangeDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="CreatedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CreatedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="18" name="CreatedById" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CreatedById"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastModifiedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastModifiedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="18" name="LastModifiedById" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastModifiedById"/>
+      </column>
+      <column comment="" key="false" length="-1" name="SystemModstamp" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SystemModstamp"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NumberOfFailedLogins" nullable="true" pattern="" precision="-1" type="id_Integer" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NumberOfFailedLogins"/>
+      </column>
+      <column comment="" key="false" length="-1" name="OfflineTrialExpirationDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="OfflineTrialExpirationDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="OfflinePdaTrialExpirationDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="OfflinePdaTrialExpirationDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsMarketingUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsMarketingUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsOfflineUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsOfflineUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsCallCenterAutoLogin" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsCallCenterAutoLogin"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSFContentUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSFContentUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsKnowledgeUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsKnowledgeUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsInteractionUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsInteractionUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSupportUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSupportUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsJigsawProspectingUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsJigsawProspectingUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSiteforceContributorUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSiteforceContributorUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsSiteforcePublisherUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsSiteforcePublisherUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPermissionsWorkDotComUserFeature" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPermissionsWorkDotComUserFeature"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ForecastEnabled" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ForecastEnabled"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesActivityRemindersPopup" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesActivityRemindersPopup"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesEventRemindersCheckboxDefault" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesEventRemindersCheckboxDefault"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesTaskRemindersCheckboxDefault" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesTaskRemindersCheckboxDefault"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesReminderSoundOff" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesReminderSoundOff"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableAllFeedsEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableAllFeedsEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableFollowersEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableFollowersEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableProfilePostEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableProfilePostEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableChangeCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableChangeCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableLaterCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableLaterCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisProfPostCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisProfPostCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesContentNoEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesContentNoEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesContentEmailAsAndWhen" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesContentEmailAsAndWhen"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesApexPagesDeveloperMode" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesApexPagesDeveloperMode"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesReceiveNoNotificationsAsApprover" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesReceiveNoNotificationsAsApprover"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesReceiveNotificationsAsDelegatedApprover" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesReceiveNotificationsAsDelegatedApprover"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideCSNGetChatterMobileTask" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideCSNGetChatterMobileTask"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableMentionsPostEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableMentionsPostEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisMentionsCommentEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisMentionsCommentEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideCSNDesktopTask" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideCSNDesktopTask"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideChatterOnboardingSplash" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideChatterOnboardingSplash"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideSecondChatterOnboardingSplash" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideSecondChatterOnboardingSplash"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisCommentAfterLikeEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisCommentAfterLikeEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableLikeEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableLikeEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSortFeedByComment" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSortFeedByComment"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableMessageEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableMessageEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideLegacyRetirementModal" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideLegacyRetirementModal"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesJigsawListUser" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesJigsawListUser"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableBookmarkEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableBookmarkEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableSharePostEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableSharePostEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesEnableAutoSubForFeeds" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesEnableAutoSubForFeeds"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableFileShareNotificationsForApi" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableFileShareNotificationsForApi"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowTitleToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowTitleToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowManagerToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowManagerToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowEmailToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowEmailToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowWorkPhoneToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowWorkPhoneToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowMobilePhoneToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowMobilePhoneToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowFaxToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowFaxToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStreetAddressToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStreetAddressToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCityToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCityToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStateToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStateToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowPostalCodeToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowPostalCodeToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCountryToExternalUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCountryToExternalUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowProfilePicToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowProfilePicToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowTitleToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowTitleToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCityToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCityToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStateToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStateToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowPostalCodeToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowPostalCodeToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowCountryToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowCountryToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideS1BrowserUI" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideS1BrowserUI"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesDisableEndorsementEmail" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesDisableEndorsementEmail"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesPathAssistantCollapsed" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesPathAssistantCollapsed"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesCacheDiagnostics" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesCacheDiagnostics"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowEmailToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowEmailToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowManagerToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowManagerToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowWorkPhoneToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowWorkPhoneToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowMobilePhoneToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowMobilePhoneToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowFaxToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowFaxToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesShowStreetAddressToGuestUsers" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesShowStreetAddressToGuestUsers"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesLightningExperiencePreferred" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesLightningExperiencePreferred"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesPreviewLightning" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesPreviewLightning"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideEndUserOnboardingAssistantModal" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideEndUserOnboardingAssistantModal"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideLightningMigrationModal" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideLightningMigrationModal"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideSfxWelcomeMat" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideSfxWelcomeMat"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHideBiggerPhotoCallout" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHideBiggerPhotoCallout"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesGlobalNavBarWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesGlobalNavBarWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesGlobalNavGridMenuWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesGlobalNavGridMenuWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesCreateLEXAppsWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesCreateLEXAppsWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesFavoritesWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesFavoritesWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesRecordHomeSectionCollapseWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesRecordHomeSectionCollapseWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesRecordHomeReservedWTShown" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesRecordHomeReservedWTShown"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesFavoritesShowTopFavorites" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesFavoritesShowTopFavorites"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesExcludeMailAppAttachments" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesExcludeMailAppAttachments"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSuppressTaskSFXReminders" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSuppressTaskSFXReminders"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSuppressEventSFXReminders" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSuppressEventSFXReminders"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesPreviewCustomTheme" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesPreviewCustomTheme"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesHasCelebrationBadge" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesHasCelebrationBadge"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesUserDebugModePref" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesUserDebugModePref"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesSRHOverrideActivities" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesSRHOverrideActivities"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesNewLightningReportRunPageEnabled" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesNewLightningReportRunPageEnabled"/>
+      </column>
+      <column comment="" key="false" length="-1" name="UserPreferencesNativeEmailClient" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="UserPreferencesNativeEmailClient"/>
+      </column>
+      <column comment="" key="false" length="18" name="ContactId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ContactId"/>
+      </column>
+      <column comment="" key="false" length="18" name="AccountId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="AccountId"/>
+      </column>
+      <column comment="" key="false" length="18" name="CallCenterId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="CallCenterId"/>
+      </column>
+      <column comment="" key="false" length="40" name="Extension" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="Extension"/>
+      </column>
+      <column comment="" key="false" length="512" name="FederationIdentifier" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FederationIdentifier"/>
+      </column>
+      <column comment="" key="false" length="1000" name="AboutMe" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="AboutMe"/>
+      </column>
+      <column comment="" key="false" length="1024" name="FullPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FullPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="1024" name="SmallPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SmallPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="-1" name="IsExtIndicatorVisible" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IsExtIndicatorVisible"/>
+      </column>
+      <column comment="" key="false" length="40" name="OutOfOfficeMessage" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="OutOfOfficeMessage"/>
+      </column>
+      <column comment="" key="false" length="1024" name="MediumPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="MediumPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="40" name="DigestFrequency" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DigestFrequency"/>
+      </column>
+      <column comment="" key="false" length="40" name="DefaultGroupNotificationFrequency" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DefaultGroupNotificationFrequency"/>
+      </column>
+      <column comment="" key="false" length="-1" name="JigsawImportLimitOverride" nullable="true" pattern="" precision="-1" type="id_Integer" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="JigsawImportLimitOverride"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastViewedDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastViewedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="-1" name="LastReferencedDate" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="LastReferencedDate"/>
+        <additionalField key="di.date.noLogicalType" value="true"/>
+      </column>
+      <column comment="" key="false" length="1024" name="BannerPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="BannerPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="1024" name="SmallBannerPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SmallBannerPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="1024" name="MediumBannerPhotoUrl" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="MediumBannerPhotoUrl"/>
+      </column>
+      <column comment="" key="false" length="-1" name="IsProfilePhotoActive" nullable="false" pattern="" precision="-1" type="id_Boolean" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IsProfilePhotoActive"/>
+      </column>
+      <column comment="" key="false" length="18" name="IndividualId" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="false">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="IndividualId"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowToIterate_1" show="false"/>
+    <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
+    <elementParameter field="TABLE" name="MAP" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFlowToIterate_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="HashSet&lt;String> set = new HashSet&lt;String>();&#xA;List&lt;String> duplicateList = new ArrayList&lt;String>();&#xA;&#xA;if (!set.contains(globalMap.get(&quot;row1.Username&quot;))) {              &#xA;&#x9;set.add((String)globalMap.get(&quot;row1.Username&quot;));&#xA;&#x9;globalMap.put(&quot;setUser, duplicateList)&#xA;} else {&#xA;&#x9;duplicateList.add((String)globalMap.get(&quot;row1.Username&quot;));&#xA;&#x9;System.out.println(globalMap.get(&quot;row1.Username&quot;));&#xA;}"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.util.*;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFlowToIterate_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_1" target="tJava_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate1" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

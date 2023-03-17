@@ -1,0 +1,32 @@
+{
+  "itemId" : "_kwbDwP0ZEeKlJJUQramLJw",
+  "contextList" : [ {
+    "contextName" : "development",
+    "repoId" : "_guSt8JzYEeK_Lq_Tgq3rQw",
+    "parameterList" : [ {
+      "id" : "_S6XnMMF9Ee2C6PW03-um7Q",
+      "name" : "cookbookData"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_guSt8JzYEeK_Lq_Tgq3rQw",
+    "parameterList" : [ {
+      "id" : "_S6XnMMF9Ee2C6PW03-um7Q",
+      "name" : "cookbookData"
+    } ]
+  }, {
+    "contextName" : "production",
+    "repoId" : "_guSt8JzYEeK_Lq_Tgq3rQw",
+    "parameterList" : [ {
+      "id" : "_S6XnMMF9Ee2C6PW03-um7Q",
+      "name" : "cookbookData"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_guSt8JzYEeK_Lq_Tgq3rQw",
+    "parameterList" : [ {
+      "id" : "_S6XnMMF9Ee2C6PW03-um7Q",
+      "name" : "cookbookData"
+    } ]
+  } ]
+}

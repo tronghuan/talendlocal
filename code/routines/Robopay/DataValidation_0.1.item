@@ -1,0 +1,164 @@
+package routines;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class DataValidation {
+	public static final String SEPARATE_CHARACTER = " \\n ";
+	private static final String REQUIRED_MESSAGE = "%s : この項目を入力してください。";
+	private static final String MAX_LENGTH_MESSAGE = "%s : 入力された値が最大長を超えています。";
+	private static final String EMAIL_FORMAT_MESSAGE = "%s : メールアドレス形式で入力してください。";
+	private static final String DATE_FORMAT_MESSAGE = "%s : YYYY/MM/DDの形式で入力してください。";
+	private static final String DATETIME_FORMAT_MESSAGE = "%s : YYYY/MM/DD hh:mm:ssの形式で入力してください。";
+	private static final String NUMBER_FORMAT_MESSAGE = "%s : 数字で入力してください。";
+	private static final String BOOLEAN_FORMAT_MESSAGE = "%s : TRUE、または FALSEで入力してください。";
+	
+	//USERDATA-----------------------------------------------
+	public static final String USERNAME_LABEL = "ログインユーザ";
+	public static final String EMAIL_LABEL = "メールアドレス";		
+	public static final String LASTNAME_LABEL = "姓";	
+	public static final String FIRSTNAME_LABEL = "名";	
+	public static final String PHONE_LABEL = "電話";	
+	public static final String BIRTHDAY_LABEL = "生年月日";	
+	public static final String GENDER_LABEL = "性別";	
+	public static final String PREFECTURES_LABEL = "都道府県";	
+	public static final String OCCUPATION_LABEL = "職業";	
+	public static final String ISACTIVE_LABEL = "有効";	
+	
+	//ORDERCONTRACT---------------------------------------------
+	public static final String CONTRACT_GROUP_ID_LABEL = "契約グループID（申込キー）";	
+	public static final String START_DATETIME_LABEL = "申込日";	
+	public static final String END_DATETIME_LABEL = "申込終了日";	
+	public static final String RECORD_TYPE_LABEL = "レコードタイプ";	
+	
+	public static final String CONTACT_LABEL = "取引先責任者";	
+	
+	public static final String EXT_CONTRACT_ID_LABEL = "外部契約ID（外部キー）";	
+	
+	public static final String CONTRACT_STARTDATE_LABEL = "契約開始日";	
+	public static final String CONTRACT_ENDDATE_LABEL = "契約終了日";	
+	public static final String PAYMENT_CYCLE_LABEL = "お支払い周期";	
+	public static final String TENANT_LABEL = "テナント（外部キー）";	
+	public static final String AUTOMATIC_RENEWAL_COMPLETED_LABEL = "契約自動更新済み";
+	public static final String AUTOMATIC_RENEWAL_COMPLETED_DATE_LABEL = "契約自動更新実行日";	
+	public static final String CONTRACT_CANCEL_LABEL = "中途解約許可";	
+	public static final String CANCELATION_APPLICATION_DATETIME_LABEL = "解約申請済み日";	
+	public static final String CONTRACT_TYPE_LABEL = "契約種類";	
+	
+	//Contract-Detail-----------------------
+	public static final String PRODUCT_EXT_LABEL = "商品・サービスID（外部キー）";	
+	public static final String CONTRACT_EXT_LABEL = "契約種類";	
+	public static final String STARTDATE_LABEL = "開始日";	
+	public static final String ENDDATE_LABEL = "終了日";	
+	public static final String ADDITIONAL_FLAG_LABEL = "契約中追加";	
+	
+	public static final String CONTRACT_DETAIL_EXT_LABEL = "契約明細ID（外部キー）";	
+	
+	public static final String CONTRACT_MONTH_DETAIL_EXT_LABEL = "契約月詳細ID(外部キー)";	
+	public static final String CMDT_STARTDATE_LABEL = "開始年月日";
+	public static final String CMDT_ENDDATE_LABEL = "終了年月日";
+	public static final String PAYMENT_DATE_LABEL = "お支払日";
+	public static final String CONTRACT_AMOUNT_WITH_TAX_LABEL = "契約金額（税込み）";
+	public static final String QUANTITY_LABEL = "数量";
+	public static final String UNABLE_FLAG_LABEL = "無効フラグ";
+	public static final String SALE_TAX_RATE_LABEL = "消費税率";
+	public static final String PRICE_WITH_TAX_LABEL = "商品・サービス単価（税込み）";
+	public static final String CHARGE_FLAG_LABEL = "課金済みフラグ";
+	public static final String CONTRACT_MOUNT_WITHOUT_TAX_LABEL = "契約金額(税抜き)";
+	public static final String CONTRACT_TAX_LABEL = "契約消費税";
+	public static final String PRICE_WITHOUT_TAX_LABEL = "商品・サービス単価(税抜き)";
+	public static final String TAX_PRICE_LABEL = "商品・サービス税金";
+	public static final String REFUND_DATE_LABEL = "返金日";
+	
+	
+	public static final String EXT_CHARGE_HISTORY_LABEL = "課金履歴ID（外部キー）";
+	public static final String COD_LABEL = "店舗オーダー番号";
+	public static final String GID_LABEL = "決済番号";
+	public static final String CHARGE_AMOUNT_LABEL = "決済金額";
+	public static final String TAX_AMOUNT_LABEL = "税金額";
+	public static final String SHIPPING_FEE_LABEL = "送料";
+	public static final String AMOUNT_LABEL = "合計金額";
+	public static final String CHARGE_DATE_LABEL = "決済日";
+	public static final String STATE_LABEL = "決済結果";
+	public static final String NEXT_BILLING_DATE_LABEL = "次回課金日";
+	
+	
+    public static void checkRequired(String value, String fieldLabel, Set<String> errorMsgs) {
+        if (value == null || value.isBlank()) {
+        	errorMsgs.add(String.format(REQUIRED_MESSAGE, fieldLabel)) ;
+        }
+    }
+    
+    public static void checkEmailFormat(String value, String fieldLabel, Set<String> errorMsgs) {
+    	 String emailRegex = "^[a-zA-Z0-9._|\\\\%#~`=?&/$^*!}{+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$";
+         Pattern emailPattern = Pattern.compile(emailRegex);
+         Matcher emailMatcher = emailPattern.matcher(value);
+         if (value != null && !value.isBlank() && !emailMatcher.matches()) {
+        	 errorMsgs.add(String.format(EMAIL_FORMAT_MESSAGE, fieldLabel));
+		}
+    }
+    
+    public static void checkDateFormat(String value, String fieldLabel, Set<String> errorMsgs) {
+    	 String dateRegex = "^\\d{4}\\/(0?[1-9]|1[012])\\/(0?[1-9]|[12][0-9]|3[01])$";
+         Pattern datePattern = Pattern.compile(dateRegex);
+         Matcher dateMatcher = datePattern.matcher(value);
+         if (value != null && !value.isBlank() && !dateMatcher.matches()) {
+        	 errorMsgs.add(String.format(DATE_FORMAT_MESSAGE, fieldLabel));
+		}
+    }
+    
+    public static void checkDateTimeFormat(String value, String fieldLabel, Set<String> errorMsgs) {
+   	 String datetimeRegex = "^\\d{4}\\/(0?[1-9]|1[012])\\/(0?[1-9]|[12][0-9]|3[01]) (\\d{2}):(\\d{2}):(\\d{2})$"; //"(\\d{4})\\/(\\d{2})\\/(\\d{2}) (\\d{2}):(\\d{2}):(\\d{2})";
+        Pattern datetimePattern = Pattern.compile(datetimeRegex);
+        Matcher datetimeMatcher = datetimePattern.matcher(value);
+        if (value != null && !value.isBlank() && !datetimeMatcher.matches()) {
+       	 errorMsgs.add(String.format(DATETIME_FORMAT_MESSAGE, fieldLabel));
+		}
+   }
+    public static void checkNumericFormat(String value, String fieldLabel, Set<String> errorMsgs) {
+    	String numberRegex = "^\\d+$";
+        Pattern numberPattern = Pattern.compile(numberRegex);
+        Matcher numberMatcher = numberPattern.matcher(value);
+        if (value != null && !value.isBlank() && !numberMatcher.matches()) {
+        	errorMsgs.add(String.format(NUMBER_FORMAT_MESSAGE, fieldLabel));
+		}
+    }
+    
+    public static void checkMaxLength(String value, Integer maxlength, String fieldLabel, Set<String> errorMsgs) {
+    	if (value != null && !value.isBlank() && value.length() > maxlength) {
+    		errorMsgs.add(String.format(MAX_LENGTH_MESSAGE, fieldLabel)) ;
+		}
+    }
+    
+    public static void checkBooleanFormat(String value, String fieldLabel, Set<String> errorMsgs) {
+    	List<String> booleanValues = new ArrayList<String>();
+	    	booleanValues.add("TRUE");
+	    	booleanValues.add("FALSE");
+    	if (value != null && !value.isBlank() && !booleanValues.contains(value.toUpperCase())) {
+    		errorMsgs.add(String.format(BOOLEAN_FORMAT_MESSAGE, fieldLabel)) ;
+		}
+    }
+    
+    
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_S7eacMF9Ee2C6PW03-um7Q" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_S7eaccF9Ee2C6PW03-um7Q" comment="" name="cookbookDBCompleted_Port" prompt="cookbookDBCompleted_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_S7eacsF9Ee2C6PW03-um7Q" comment="" name="cookbookDBCompleted_AdditionalParams" prompt="cookbookDBCompleted_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+  <contextParameter xmi:id="_S7eac8F9Ee2C6PW03-um7Q" comment="" name="cookbookDBCompleted_Database" prompt="cookbookDBCompleted_Database?" promptNeeded="false" type="id_String" value="cookbookDB"/>
+  <contextParameter xmi:id="_S7eadMF9Ee2C6PW03-um7Q" comment="" name="cookbookDBCompleted_Server" prompt="cookbookDBCompleted_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_S7eadcF9Ee2C6PW03-um7Q" comment="" name="cookbookDBCompleted_Password" prompt="cookbookDBCompleted_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:YM8Npd2q3mvZNibGvqi/hatQKmy8Ncgd1bwgueti3KB53A=="/>
+  <contextParameter xmi:id="_S7eadsF9Ee2C6PW03-um7Q" comment="" name="cookbookDBCompleted_Login" prompt="cookbookDBCompleted_Login?" promptNeeded="false" type="id_String" value="talend"/>
+</talendfile:ContextType>

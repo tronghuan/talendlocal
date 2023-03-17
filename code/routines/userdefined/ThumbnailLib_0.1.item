@@ -1,0 +1,85 @@
+package routines;
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.awt.Graphics2D;
+import java.awt.geom.AffineTransform;
+import java.awt.GraphicsEnvironment;
+import java.awt.GraphicsDevice;
+import java.awt.GraphicsConfiguration;
+
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class ThumbnailLib {
+
+    /**
+     * helloExample: not return value, only print "hello" + message.
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("world") input: The string need to be printed.
+     * 
+     * {example} helloExemple("world") # hello world !.
+     */
+    public static void helloExample(String message) {
+        if (message == null) {
+            message = "World"; //$NON-NLS-1$
+        }
+        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+    }
+    
+    /**
+     * createThumbnail: not return value, only create a thumbnail of a image and save to local
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User defined
+     * 
+     * {param}
+     * 
+     * {example}
+     */
+    public static void createThumbnail() {
+    	System.out.println("a");
+    }
+    
+    public static BufferedImage scale(BufferedImage source, double ratio) {
+        int w = (int)(source.getWidth() * ratio);
+        int h = (int)(source.getHeight() * ratio);
+        BufferedImage bi = getCompatibleImage(w, h);
+        Graphics2D g2d = bi.createGraphics();
+        double xScale = (double) w / source.getWidth();
+        double yScale = (double) h / source.getHeight();
+        AffineTransform at = AffineTransform.getScaleInstance(xScale, yScale);
+        g2d.drawRenderedImage(source, at);
+        g2d.dispose();
+        return bi;
+    }
+
+    public static BufferedImage getCompatibleImage(int w, int h) {
+        GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+        GraphicsDevice gd = ge.getDefaultScreenDevice();
+        GraphicsConfiguration gc = gd.getDefaultConfiguration();
+        BufferedImage image = gc.createCompatibleImage(w, h);
+        return image;
+    }
+}

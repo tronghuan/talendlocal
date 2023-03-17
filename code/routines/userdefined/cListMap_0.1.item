@@ -1,0 +1,18 @@
+package routines;
+import java.util.*;
+public class cListMap {
+    public static void helloExample(String message) {
+        if (message == null) {
+            message = "World"; //$NON-NLS-1$
+        }
+        System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
+    }
+    
+	@SuppressWarnings("unchecked")
+	public static Map<String,String> processMap(Object globalMaps,Object kokoroid,Object sfid) {
+    	Map<String,String> exist_map=new LinkedHashMap<String,String>();
+    	if(globalMaps!=null)exist_map=(Map<String,String>)globalMaps;
+    	exist_map.put(String.valueOf(kokoroid), String.valueOf(sfid));
+    	return exist_map;
+    }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_wBIPYej2Eeu4d5R3CtkCpw" label="Local_Project" description="" language="java" technicalLabel="LOCAL_PROJECT" local="true" author="_wB4dUOj2Eeu4d5R3CtkCpw" productVersion="Talend Open Studio for Data Integration-8.0.1.20211109_1610" itemsRelationVersion="1.3" bigData="false">
+    <componentsSettings xmi:id="_O49KwMF-Ee2C6PW03-um7Q" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_PcsJ8MF-Ee2C6PW03-um7Q" name="DI|tHashOutput" family="Technical"/>
+    <migrationTask xmi:id="_wDC8a-j2Eeu4d5R3CtkCpw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_wB4dUOj2Eeu4d5R3CtkCpw" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+  <TalendProperties:User xmi:id="_UBe7cIwjEe2HFP-d7n3Q6A" login="huan.dao@furucrm.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>
